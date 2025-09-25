@@ -44,10 +44,7 @@ def get_my_greeting() -> str:
             return data.get("good_night")
     except (json.JSONDecodeError, OSError):
         return ""
-    
-def set_firtst_value() -> None:
-    
 
-def set_second_value() -> None:
-
-def get_additon() -> int:
+# set_first_value: first_valueをjsonに保存
+# set_second_value: second_valueをjsonに保存
+# get_addition: jsonから値を取ってきて、足し算した結果を返却
