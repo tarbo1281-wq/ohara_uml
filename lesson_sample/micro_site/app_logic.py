@@ -45,9 +45,9 @@ def get_my_greeting() -> str:
     except (json.JSONDecodeError, OSError):
         return ""
     
-def set_firtst_value() -> None:
-    
+#def set_firtst_value() -> None:
 
-def set_second_value() -> None:
 
-def get_additon() -> int:
+#def set_second_value() -> None:
+
+#def get_additon() -> int:
